@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+
+.div-google-div{
+    border-radius: 20px;
+    background-color: #e7e2e2db; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.google-image {
+    width: 100px;
+    height: 100px; 
+    object-fit: contain;
+    background-color: #f8f6f6; 
+}
+
+.div-chat{
+    font-family: "Playpen Sans", cursive;
+    font-weight: 800;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: rgb(222, 213, 171);
+    color: rgb(220, 56, 170);
+    width:100px;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.div-faq{
+    background-color: rgb(202, 148, 218);
+    color: rgb(39, 10, 106);
+    border-radius: 20px;
+    font-family: "Playpen Sans", cursive;
+    font-weight: 800;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100px;
+    height:100px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.div-about{
+    background-color: rgb(246, 187, 222);
+    color: rgb(162, 6, 108);
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: "Playpen Sans", cursive;
+    font-weight: 800;
+    width:100px;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+  
+.container {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background-color: #f8f6f6; 
+}
+.nav-link {
+    text-decoration: none; 
+    color: black; 
+    font-weight: bold; 
+    background-color: #f8f6f6;
+}
+
+  
+.header {
+    background-color: #f8f6f6;
+    font-size: 35px;
+    font-family: "Playpen Sans", cursive;
+    font-weight: 800;
+    font-weight: bold;
+}
+  
+.subheading {
+    font-size: 24px;
+    background-color: #f8f6f6;
+    font-family: "Playpen Sans", cursive;
+    font-weight: 800;
+    color: #888;
+    margin-bottom: 40px;
+}
+  
+.button-container {
+    background-color: #f8f6f6;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+  
+.google-button {
+    background-color: #4285F4;
+    color: #fff;
+}

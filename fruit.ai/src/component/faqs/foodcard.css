@@ -1,0 +1,43 @@
+.left-side{
+    padding:20px 0px;
+    justify-content: center;
+    align-items: center;
+}
+.food-name{
+    display: flex;
+    justify-content: center;
+}
+.food-card {
+    display: flex;
+    background: #5d5a5a;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+.fruit-image {
+    height: 100px;
+    width: 100px;
+    object-fit:contain;
+    border-radius: 20px;
+}
+.right-side{
+    padding-top:10px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 20px;
+}
+  
+  .food-details {
+    flex: 1;
+  }
+  
+  .food-quantity {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+  }

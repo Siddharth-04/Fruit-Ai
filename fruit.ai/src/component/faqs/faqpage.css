@@ -1,0 +1,193 @@
+.chat-page {
+    background: #333;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    color: white;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.h2{
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+  
+.chat-header-faq {
+    border-radius: 15px;
+    background-color: #080808;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+  
+.chat-body {
+    flex: 1;
+    overflow-y: auto;
+    margin: 20px 0;
+}
+  
+/* Container for the form */
+.new-fruit-form {
+    background-color: #222; /* Matches the dark theme */
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between input fields */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a soft shadow */
+    margin-top: 20px;
+    width: 100%; /* Ensures it takes up the available width */
+}
+
+/* Styling input fields */
+.new-fruit-form input {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #444; /* Dark background to match theme */
+    color: white;
+    border: 1px solid #555; /* Subtle border */
+    transition: border 0.3s ease;
+}
+
+.new-fruit-form input:focus {
+    border-color: #777; /* Highlights border on focus */
+}
+
+/* Buttons */
+.new-fruit-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Submit button styling */
+.new-fruit-form button[type="submit"] {
+    background-color: #28a745; /* Green for submit */
+    color: white;
+}
+
+.new-fruit-form button[type="submit"]:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Cancel button styling */
+.new-fruit-form button[type="button"] {
+    background-color: #dc3545; /* Red for cancel */
+    color: white;
+    margin-left: 10px;
+}
+
+.new-fruit-form button[type="button"]:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* Make buttons inline */
+.new-fruit-form button {
+    display: inline-block;
+    width: 40%;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 10px 0;
+    width: 100%; /* Full width for better usability */
+}
+
+/* Submit button (green color) */
+button[type="submit"] {
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    font-weight: bold;
+}
+
+/* Delete Button Styling */
+.delete-button {
+    padding: 12px 20px;
+    background-color: #dc3545; /* Red background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 10px;
+}
+
+.delete-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+    transform: scale(1.05); /* Slight scaling on hover */
+}
+
+/* Delete Form Styling */
+.delete-fruit-form input {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 90%;
+}
+
+.delete-fruit-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.delete-fruit-form button[type="submit"] {
+    background-color: #dc3545; /* Red background */
+    color: white;
+}
+
+.delete-fruit-form button[type="submit"]:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+}
+
+.delete-fruit-form button[type="button"] {
+    background-color: #6c757d; /* Gray background */
+    color: white;
+}
+
+.delete-fruit-form button[type="button"]:hover {
+    background-color: #5a6268;
+    transform: scale(1.05);
+}
+
+.back-button {
+    padding: 12px 20px;
+    background-color: #2971a4; /* Red background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 10px;
+}
